@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.header-nav a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.about-container {
+    background-color: #f6f6f6;
+    height: 312px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    line-height: 84px;
+    margin: 72px 0 0 0;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.description p {
+    color: #838383;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 315px;
+    width: 315px;
+}
+
+.work-item.one,
+.three,
+.six,
+.eight,
+.nine,
+.eleven {
+    background-color: #838383;
+}
+
+.work-item.two,
+.four,
+.five,
+.seven,
+.ten,
+.twelve {
+    background-color: #dddddd;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #000000;
+    height: 284px;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    margin-left: 100px;
+}
+
+.company-name p {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 72px;
+}
+
+.copyright p,
+.contact p,
+.footer-nav a {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.copyright p,
+.contact p,
+.footer-nav a {
+    color: #bcbcbc;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.footer-nav {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.column-one,
+.column-two,
+.column-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-two {
+    margin-left: 50px;
+}
+
+.column-three {
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
